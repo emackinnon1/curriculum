@@ -23,7 +23,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [Airi Chow's Solution](https://github.com/airi-14x/TheOdinProject-Rails/tree/master/warmup_restclient)
+* [Vedant's Solution](https://github.com/vedantshetty/Odin_Project_Code/tree/master/Ruby/bing_search)
+* [Airi Chow's Solution](https://github.com/airi-14x/TheOdinProject-Sinastra-and-Basic-Rails/tree/master/warmup_restclient)
 * [Kevin Vuong's Solution](https://github.com/fffear/bing_search)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/rest-client-warmup)
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/rails-exercises/tree/master/rest-client)
@@ -62,6 +63,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Alex Tsiras' solution](https://github.com/arialblack14/rest_client)
 * [srashidi's solution](https://github.com/srashidi/The_Odin_Project/blob/master/Ruby%20on%20Rails/Web_Refresher/google_search.rb)
 * [Scott Bobbitt's solution](https://github.com/sco-bo/rest_client_gem)
+* [Carlos Diaz's solution](https://github.com/bycdiaz/rest-client)
 * [Radi Totev's solution](https://github.com/raditotev/rest-tester)
 * [Hassan Mahmoud's solution](https://github.com/HassanTC/RestClient)
 * [Max Gallant's solution](https://github.com/mcgalcode/WebRefresher)
@@ -90,6 +92,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [ParamagicDev's solution](https://github.com/ParamagicDev/rest_search)
 * [Slaven's solution](https://github.com/Everdrought/stunning-memory/blob/master/RestClient/script.rb)
 * [Nyaga Roy's solution](https://github.com/RoyNyaga/project_let-s_get_building_microverse)
+* [Nyaga Roy's solution](https://github.com/RobertDunbar/rest-client)
+* [Rey's Solution](https://github.com/Rey810/Rest-Client/tree/master)
 </details>
 
 ### Project: Ruby on Rails Tutorial

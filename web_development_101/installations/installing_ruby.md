@@ -103,7 +103,7 @@ It's finally time to install Ruby using `rbenv`!
 Inside the terminal, run this command:
 
 ~~~bash
-rbenv install 2.6.4 --verbose
+rbenv install 2.6.5 --verbose
 ~~~
 
 This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://www.youtube.com/watch?v=GzkfOKkIteA) or to get a glass of water.
@@ -111,7 +111,7 @@ This command will take 10-15 minutes to complete. The `--verbose` flag will show
 When the last command is finished, set the Ruby version and verify that it's working:
 
 ~~~bash
-rbenv global 2.6.4
+rbenv global 2.6.5
 ~~~
 
 Then,
@@ -123,7 +123,7 @@ ruby -v
 The above command should return something similar to this:
 
 ~~~bash
-ruby 2.6.4pxx (20xx-xx-xx revision xxxxx) [x86_64-linux]
+ruby 2.6.5pxx (20xx-xx-xx revision xxxxx) [x86_64-linux]
 ~~~
 where x represents the version available at the time you installed Ruby.
 
@@ -168,7 +168,7 @@ Congratulations! You've installed the prerequisites!
 
 Heroku is a place to host your Rails applications
 
-#### Step 1.1: Install Heroku
+#### Step 2.1: Install Heroku
 
 Next, install Heroku:
 
@@ -196,7 +196,9 @@ Then, run this command:
 rbenv init
 ~~~
 
-You should see the following after the command has run:
+You should see one of two messages after the command has run.
+
+Either:
 
 ~~~bash
 # Load rbenv automatically by appending
@@ -205,20 +207,37 @@ You should see the following after the command has run:
 eval "$(rbenv init -)"
 ~~~
 
-You'll do as it suggests by running the following command in the terminal:
+Or:
+
+~~~bash
+# Load rbenv automatically by appending
+# the following to ~/.zshrc:
+
+eval "$(rbenv init -)"
+~~~
+
+You'll do as it suggests by running either of the following commands in the terminal.
+
+If the previous message stated you should append to your bash_profile then run:
 
 ~~~bash
 echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 ~~~
 
-You'll notice nothing happened in the terminal. That's okay and is typical response for many terminal commands. At this point, you'll need to restart the terminal for the changes to take effect. Click the red "x" and then re-open the terminal (see Step 1.1).
+Otherwise if it mentioned zshrc then run:
+
+~~~bash
+echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+~~~
+
+You'll notice nothing happened in the terminal. That's okay and is typical response for many terminal commands. At this point, take note of the page and step number you are on, close everything, do a full reboot and log back into your profile. After logging back in, re-open the terminal (see Step 1.1).
 
 #### Step 3.3: Install Ruby
 
-We can now (finally) install Ruby! We recommend using the latest version, which is currently 2.6.4:
+We can now (finally) install Ruby! We recommend using the latest version, which is currently 2.6.5:
 
 ~~~bash
-rbenv install 2.6.4 --verbose
+rbenv install 2.6.5 --verbose
 ~~~
 
 This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://www.youtube.com/watch?v=GzkfOKkIteA) or to get a glass of water.
@@ -226,14 +245,14 @@ This command will take 10-15 minutes to complete. The `--verbose` flag will show
 Once Ruby is installed, you need to tell rbenv which version to use by default. Inside the terminal, type:
 
 ~~~bash
-rbenv global 2.6.4
+rbenv global 2.6.5
 ~~~
 
-You can double check that this worked by typing `ruby -v` and checking that the output says version 2.6.4:
+You can double check that this worked by typing `ruby -v` and checking that the output says version 2.6.5:
 
 ~~~bash
 $ ruby -v
-ruby 2.6.4pxx (20xx-xx-xx revision xxxxx)
+ruby 2.6.5pxx (20xx-xx-xx revision xxxxx)
 ~~~
 
 If you don't see the output above, log off and log back on, then try again.
